@@ -94,19 +94,19 @@ function create_config( )
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},
-    info_text = [[》permag.ir v3
+    info_text = [[》sendpmmbot v3
 
 🔰Our channel :
-》@permag_bots《
+》@sendpmmbot《
 
 🔰Our channel2 :
-》@permag_ir《
+》@sendpmmbot《
 
 🔰Our channel3 :
-》@permag《
+》@sendpmmbot《
 
 🔰Our website :
-》http://permag.ir
+》@sendpmmbot
 ]],
   }
   serialize_to_file(config, './data/config.lua')
@@ -894,7 +894,5 @@ elseif msg.content_.ID == "MessageGame" then
   end
 
 end
--- http://permag.ir
--- @permag_ir
--- @permag_bots
--- @permag
+
+-- @sendpmmbot
